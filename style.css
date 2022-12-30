@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.divConatiner {
+    display: grid;
+    grid-template-columns: repeat(16, 25px [col-start]);
+}
+
+.gridDiv {
+    border: 1px solid black;
+    height: 25px;
+    width: 25px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid var(--primary-dark);
+    border-radius: 5px;
+  }
