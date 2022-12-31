@@ -4,10 +4,28 @@
     align-items: center;
 }
 
+.title {
+    font-family: "Fredericka the Great", cursive;
+    font-size: 6rem;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 20px 0 5px;
+    color: maroon;
+  }
 
 .divConatiner {
-    display: grid;
-    grid-template-columns: repeat(16, 25px [col-start]);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+    margin: 1em auto 0;
+    height: 512px;
+    width: 512px;
+    border-top: 2px solid maroon;
+    border-left: 2px solid maroon;
+    border-right: 3px solid maroon;
+    border-bottom: 3px solid maroon;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.35);
 }
 
 .gridDiv {
@@ -21,6 +39,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    gap : 8px;
 }
 
 button {
